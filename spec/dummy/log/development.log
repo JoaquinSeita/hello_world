@@ -1,0 +1,10 @@
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at spec/dummy/bin/rails:5)
+  [1m[35m (148.9ms)[0m  [1m[35mCREATE DATABASE "dummy_development" ENCODING = 'unicode'[0m
+  [1m[35m (50.8ms)[0m  [1m[35mCREATE DATABASE "dummy_test" ENCODING = 'unicode'[0m
